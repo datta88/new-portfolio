@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.nav-contener {
+    padding: 15px;
+    background-color: #444;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: sticky;
+    margin-bottom:100px ;
+}
+
+.nav-anker {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.nav-anker:hover {
+    background-color: #555;
+}
+
+.user-heding {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.user-image {
+    height: 250px;
+    border-radius: 50%;
+   
+}
+
+.user-tag-line {
+    font-size: 20px;
+}
+
+.skills-bages {
+    margin: 5px;
+}
+
+.btn-html {
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #e34c26;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-css {
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #264de4;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-reactjs {
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: black;
+    border: none;
+    background-color: #7cc5d9;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-nodejs {
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #3c873a;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+.btn-mongodb {
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #4c8330;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width:600px) {
+    .user-heding {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-image {
+        height: 150px;
+    }
+}
+
+.contener {
+    padding: 30px;
+}
+
+.portfolio-information {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about-us {
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px gray;
+
+
+}
+.span-about{
+    display: block;
+    text-align: end;
+}
+
+.paragrap-decsription {
+    font-size: 14px;
+    /* font-family: "Gill Sans", sans-serif; */
+    /* font-family: sans-serif; */
+    /* font-family: serif; */
+    font-family: cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.percentage{
+    font-size: 13px;
+}
+
+.about-card {
+
+    text-align: start;
+}
+
+.contact-us {
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.social-midia-icon-containt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-midia-icon {
+    height: 30px;
+    margin: 10px;
+}
+
+.email{
+    text-decoration: none;
+  
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-right: 10px;
+   padding-bottom: 5px;
+   border-radius: 30px;
+    box-shadow: 0px 3px 1px -2px rgb(0, 0, 0);
+}
+.color-tomato{
+    background-color: #e34c26;
+    color: white;
+}
+.color-blue{
+    background-color: #264de4;
+    color: white;
+}
+.color-bluevailet{
+    background-color: #7cc5d9;
+    color: black;
+}
+.color-green{
+    background-color: #3c873a;
+    color: white;
+}
+.project-heading {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 px 2px 4px rgb(0, 0, 0);
+    margin: 10px;
+    max-width: 300px;
+}
+
+.project-details {
+    padding: 10px;
+}
+
+.project-heading {
+    text-align: center;
+}
+
+.btn-project {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-link {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0px;
+}
+
+.anker {
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.bold{
+    font-size: 20px;
+}
